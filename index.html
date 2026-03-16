@@ -1,0 +1,1179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vCard - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Richard hanrick" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Richard hanrick">Divya Pandey</h1>
+
+          <p class="title">Dr. Divya Pandey (PT)</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:dr.divyapandeypt@gmail.com" class="contact-link">dr.divyapandeypt@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+91 8291947707" class="contact-link">+91 8291947707</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">October 22, 2003</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Sunteck, Naigaon East, Mumbai</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I'm a BPT Physiotherapist, dedicated to helping people recover, move better, and live healthier lives. 
+            I specialize in providing personalized physiotherapy treatments that focus on relieving pain, improving mobility, 
+            and restoring physical function.
+          </p>
+
+          <p>
+            My goal is to design treatment plans that are effective, patient-friendly, and tailored to each individual's needs. 
+            I focus on understanding the root cause of physical problems and applying the right therapeutic techniques, exercises, and rehabilitation methods.
+
+            Moreover, I ensure that every patient receives attentive care, proper guidance, and a comfortable recovery experience. My aim is to help people regain strength, 
+            prevent injuries, and improve their overall quality of life through professional physiotherapy care.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.png
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Physiotherapy Consultation</h4>
+
+                <p class="service-item-text">
+                  Professional assessment and consultation to identify the root cause of pain, injury, or mobility issues and provide the most suitable treatment plan.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.png" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Pain Management & Rehabilitation</h4>
+
+                <p class="service-item-text">
+                  Effective physiotherapy treatments to relieve pain, restore movement, and support recovery from injuries, surgeries, or chronic conditions.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.png" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Exercise Therapy</h4>
+
+                <p class="service-item-text">
+                  Personalized therapeutic exercise programs designed to improve strength, flexibility, posture, and overall physical function.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.png" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Injury Prevention & Recovery</h4>
+
+                <p class="service-item-text">
+                  IGuidance and physiotherapy techniques to prevent injuries, enhance recovery, and promote long-term physical health and well-being.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Patient Feedback ⭐</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Reetu Dubey</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    "I was suffering from continuous back pain for a long time. 
+                    After taking physiotherapy sessions from Dr. Divya Pandey, I noticed great improvement in my condition. 
+                    The treatment and exercises suggested by her were very effective. 
+                    I truly appreciate the care and guidance I received."
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-2.png" alt="Jessica miller" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Shristi Tiwari</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    "My experience with Dr. Divya Pandey was excellent. 
+                    She carefully listened to my problem and provided the right physiotherapy treatment. 
+                    Within a few sessions, my pain reduced and my movement became much better. 
+                    I highly recommend her for physiotherapy treatment."
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-3.png" alt="Emily evans" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Priya Tiwari</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    "I am very thankful to Dr. Divya Pandey for helping me recover from my injury. 
+                    The therapy sessions were very professional and comfortable. 
+                    She explained every exercise clearly and supported me throughout the recovery process."
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Sneha Pandey</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    "I had a very good experience with Dr. Divya Pandey. 
+                    I was dealing with severe neck pain, and after a few physiotherapy sessions, I started feeling much better. 
+                    The treatment was very professional and the exercises she recommended were very helpful. 
+                    I am really grateful for her care and support during my recovery."
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Experience</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-1-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-2-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-3-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-3-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-3-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-3-color.png" alt="client logo">
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Harsha institute of physiotherapy (Under Rajiv Gandhi University Of Health and Science)</h4>
+
+              <span>2021-2025</span>
+
+              <p class="timeline-text">
+                I pursued my physiotherapy education at Harsha Institute of Physiotherapy (under Rajiv Gandhi University of Health Sciences)
+                from 2021 to 2025, where I gained professional knowledge and clinical training in physiotherapy, rehabilitation, and patient care.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Thakur College of Science and Commerce</h4>
+
+              <span>2019 — 2021</span>
+
+              <p class="timeline-text">
+              I completed my higher secondary education from Thakur College of Science and Commerce in 2020–2021 with PCMB (Physics, Chemistry, Mathematics, and Biology).
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Wockhardt Hospitals</h4>
+
+              <span>2026 — Present</span>
+
+              <p class="timeline-text">
+                Working as a physiotherapy professional providing patient assessment, rehabilitation therapy,
+                pain management, and recovery support. Assisting patients in improving mobility, reducing pain,
+                and restoring physical function through personalized physiotherapy treatment plans.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Government Health Camp Volunteering</h4>
+
+              <span>Community Health Service</span>
+
+              <p class="timeline-text">
+                Participated as a volunteer in government health camps, assisting in physiotherapy consultations, 
+                patient assessments, and spreading awareness about physical health, posture correction, and injury prevention.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">OPD & IPD Clinical Posting – M.S. Ramaiah Harsha Hospital, Bangalore</h4>
+
+              <span>1 Year Clinical Training</span>
+
+              <p class="timeline-text">
+                Completed one year of OPD and IPD clinical postings at M.S. Ramaiah Harsha Hospital, Bangalore. 
+                Gained hands-on experience in patient assessment, physiotherapy treatment, rehabilitation 
+                exercises, and assisting in recovery for various musculoskeletal and neurological conditions.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Pain Management Therapy</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Rehabilitation Therapy</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Exercise Therapy</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Posture Correction & Mobility Improvement</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Physiotherapy Work</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Treatments</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Services</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Physiotherapy Work</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Treatments</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Services</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="physiotherapy work">
+  <a href="#">
+
+    <figure class="project-img">
+      <div class="project-item-icon-box">
+        <ion-icon name="eye-outline"></ion-icon>
+      </div>
+
+      <img src="./assets/images/project-1.png" alt="back pain rehabilitation" loading="lazy">
+    </figure>
+
+    <h3 class="project-title">Back Pain Rehabilitation</h3>
+
+    <p class="project-category">Physiotherapy Work</p>
+
+  </a>
+</li>
+
+<li class="project-item  active" data-filter-item data-category="treatments">
+  <a href="#">
+
+    <figure class="project-img">
+      <div class="project-item-icon-box">
+        <ion-icon name="eye-outline"></ion-icon>
+      </div>
+
+      <img src="./assets/images/project-2.png" alt="sports injury recovery" loading="lazy">
+    </figure>
+
+    <h3 class="project-title">Sports Injury Recovery</h3>
+
+    <p class="project-category">Treatments</p>
+
+  </a>
+</li>
+
+<li class="project-item  active" data-filter-item data-category="treatments">
+  <a href="#">
+
+    <figure class="project-img">
+      <div class="project-item-icon-box">
+        <ion-icon name="eye-outline"></ion-icon>
+      </div>
+
+      <img src="./assets/images/project-3.png" alt="post surgery physiotherapy" loading="lazy">
+    </figure>
+
+    <h3 class="project-title">Post-Surgery Physiotherapy</h3>
+
+    <p class="project-category">Treatments</p>
+
+  </a>
+</li>
+
+<li class="project-item  active" data-filter-item data-category="services">
+  <a href="#">
+
+    <figure class="project-img">
+      <div class="project-item-icon-box">
+        <ion-icon name="eye-outline"></ion-icon>
+      </div>
+
+      <img src="./assets/images/project-4.png" alt="neck pain therapy" loading="lazy">
+    </figure>
+
+    <h3 class="project-title">Neck Pain Therapy</h3>
+
+    <p class="project-category">Services</p>
+
+  </a>
+</li>
+
+<li class="project-item  active" data-filter-item data-category="treatments">
+  <a href="#">
+
+    <figure class="project-img">
+      <div class="project-item-icon-box">
+        <ion-icon name="eye-outline"></ion-icon>
+      </div>
+
+      <img src="./assets/images/project-5.png" alt="knee pain rehabilitation" loading="lazy">
+    </figure>
+
+    <h3 class="project-title">Knee Pain Rehabilitation</h3>
+
+    <p class="project-category">Treatments</p>
+
+  </a>
+</li>
+
+<li class="project-item  active" data-filter-item data-category="services">
+  <a href="#">
+
+    <figure class="project-img">
+      <div class="project-item-icon-box">
+        <ion-icon name="eye-outline"></ion-icon>
+      </div>
+
+      <img src="./assets/images/project-6.png" alt="posture correction therapy" loading="lazy">
+    </figure>
+
+    <h3 class="project-title">Posture Correction Therapy</h3>
+
+    <p class="project-category">Services</p>
+
+  </a>
+</li>
+
+<li class="project-item  active" data-filter-item data-category="physiotherapy work">
+  <a href="#">
+
+    <figure class="project-img">
+      <div class="project-item-icon-box">
+        <ion-icon name="eye-outline"></ion-icon>
+      </div>
+
+      <img src="./assets/images/project-7.png" alt="shoulder pain treatment" loading="lazy">
+    </figure>
+
+    <h3 class="project-title">Shoulder Pain Treatment</h3>
+
+    <p class="project-category">Physiotherapy Work</p>
+
+  </a>
+</li>
+
+<li class="project-item  active" data-filter-item data-category="services">
+  <a href="#">
+
+    <figure class="project-img">
+      <div class="project-item-icon-box">
+        <ion-icon name="eye-outline"></ion-icon>
+      </div>
+
+      <img src="./assets/images/project-8.png" alt="muscle strengthening therapy" loading="lazy">
+    </figure>
+
+    <h3 class="project-title">Muscle Strengthening Therapy</h3>
+
+    <p class="project-category">Services</p>
+
+  </a>
+</li>
+
+<li class="project-item  active" data-filter-item data-category="physiotherapy work">
+  <a href="#">
+
+    <figure class="project-img">
+      <div class="project-item-icon-box">
+        <ion-icon name="eye-outline"></ion-icon>
+      </div>
+
+      <img src="./assets/images/project-9.png" alt="mobility training" loading="lazy">
+    </figure>
+
+    <h3 class="project-title">Mobility & Flexibility Training</h3>
+
+    <p class="project-category">Physiotherapy Work</p>
+
+  </a>
+</li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+<article class="blog" data-page="blog">
+
+  <header>
+    <h2 class="h2 article-title">Blog</h2>
+  </header>
+
+  <section class="blog-posts">
+
+    <ul class="blog-posts-list">
+
+      <li class="blog-post-item">
+        <a href="#">
+
+          <figure class="blog-banner-box">
+            <img src="./assets/images/blog-1.png" alt="Back Pain Relief" loading="lazy">
+          </figure>
+
+          <div class="blog-content">
+
+            <div class="blog-meta">
+              <p class="blog-category">Physiotherapy</p>
+
+              <span class="dot"></span>
+
+              <time datetime="2025-04-12">Apr 12, 2025</time>
+            </div>
+
+            <h3 class="h3 blog-item-title">How Physiotherapy Helps in Back Pain Relief</h3>
+
+            <p class="blog-text">
+              Physiotherapy helps reduce back pain through targeted exercises, posture correction, and manual therapy techniques.
+            </p>
+
+          </div>
+
+        </a>
+      </li>
+
+      <li class="blog-post-item">
+        <a href="#">
+
+          <figure class="blog-banner-box">
+            <img src="./assets/images/blog-2.png" alt="Neck Pain Exercises" loading="lazy">
+          </figure>
+
+          <div class="blog-content">
+
+            <div class="blog-meta">
+              <p class="blog-category">Health</p>
+
+              <span class="dot"></span>
+
+              <time datetime="2025-04-15">Apr 15, 2025</time>
+            </div>
+
+            <h3 class="h3 blog-item-title">Simple Exercises for Neck Pain Relief</h3>
+
+            <p class="blog-text">
+              Neck pain often occurs due to poor posture and long screen time. Stretching and strengthening exercises help relieve discomfort.
+            </p>
+
+          </div>
+
+        </a>
+      </li>
+
+      <li class="blog-post-item">
+        <a href="#">
+
+          <figure class="blog-banner-box">
+            <img src="./assets/images/blog-3.png" alt="Post Surgery Physiotherapy" loading="lazy">
+          </figure>
+
+          <div class="blog-content">
+
+            <div class="blog-meta">
+              <p class="blog-category">Rehabilitation</p>
+
+              <span class="dot"></span>
+
+              <time datetime="2025-04-18">Apr 18, 2025</time>
+            </div>
+
+            <h3 class="h3 blog-item-title">Importance of Physiotherapy After Surgery</h3>
+
+            <p class="blog-text">
+              Post-surgery physiotherapy helps patients regain mobility, reduce stiffness, and recover faster with guided rehabilitation.
+            </p>
+
+          </div>
+
+        </a>
+      </li>
+
+      <li class="blog-post-item">
+        <a href="#">
+
+          <figure class="blog-banner-box">
+            <img src="./assets/images/blog-4.png" alt="Sports Injury Recovery" loading="lazy">
+          </figure>
+
+          <div class="blog-content">
+
+            <div class="blog-meta">
+              <p class="blog-category">Treatment</p>
+
+              <span class="dot"></span>
+
+              <time datetime="2025-04-21">Apr 21, 2025</time>
+            </div>
+
+            <h3 class="h3 blog-item-title">How Physiotherapy Helps in Sports Injuries</h3>
+
+            <p class="blog-text">
+              Physiotherapy techniques and rehabilitation exercises help athletes recover quickly from ligament and muscle injuries.
+            </p>
+
+          </div>
+
+        </a>
+      </li>
+
+      <li class="blog-post-item">
+        <a href="#">
+
+          <figure class="blog-banner-box">
+            <img src="./assets/images/blog-5.png" alt="Posture Correction Tips" loading="lazy">
+          </figure>
+
+          <div class="blog-content">
+
+            <div class="blog-meta">
+              <p class="blog-category">Wellness</p>
+
+              <span class="dot"></span>
+
+              <time datetime="2025-04-24">Apr 24, 2025</time>
+            </div>
+
+            <h3 class="h3 blog-item-title">Posture Correction Tips for Daily Life</h3>
+
+            <p class="blog-text">
+              Maintaining proper posture while sitting and standing helps prevent spine problems and long-term body pain.
+            </p>
+
+          </div>
+
+        </a>
+      </li>
+
+      <li class="blog-post-item">
+        <a href="#">
+
+          <figure class="blog-banner-box">
+            <img src="./assets/images/blog-6.png" alt="Muscle Strengthening Therapy" loading="lazy">
+          </figure>
+
+          <div class="blog-content">
+
+            <div class="blog-meta">
+              <p class="blog-category">Fitness</p>
+
+              <span class="dot"></span>
+
+              <time datetime="2025-04-28">Apr 28, 2025</time>
+            </div>
+
+            <h3 class="h3 blog-item-title">Benefits of Muscle Strengthening Therapy</h3>
+
+            <p class="blog-text">
+              Strengthening therapy improves muscle power, flexibility, and overall body stability to prevent injuries.
+            </p>
+
+          </div>
+
+        </a>
+      </li>
+
+    </ul>
+
+  </section>
+
+</article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3764.067376479724!2d72.85586822505958!3d19.36623508189898!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7af6dee46ff6b%3A0x6dfbf2411e42acd!2sSunteck%20MAXXWorld%20Naigaon!5e0!3m2!1sen!2sin!4v1773656436754!5m2!1sen!2sin" 
+               width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" ></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
